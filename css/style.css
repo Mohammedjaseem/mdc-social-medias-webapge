@@ -26,7 +26,7 @@
 .canvas{
     max-width: 319px;
     background: rgb(0, 0, 0);
-    max-height:725px;
+    max-height:782px;
     border-radius: 40px 40px 40px 40px;
     display: flex;
     flex-direction: column;
