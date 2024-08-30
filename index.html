@@ -1,84 +1,168 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Social media pages of malabar dental college & research center">
-  <meta name="keywords" content="Social media Malabar dental college">
+  <meta name="description" content="Social media pages of Malabar Dental College & Research Center">
+  <meta name="keywords" content="Social media, Malabar Dental College">
   <meta name="author" content="Mohammed Jaseem">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MDCRC | Social Medias</title>
-
-  <! –– Style stylesheet link ––>
+  <title>MDCRC | Social Media</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
   <style>
-  
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 10px
-}
+    body {
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/d5/3e/6a/d53e6af334705a49a3f55770ff9fe84a.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
 
-.fa:hover {
-    opacity: 0.7;
-}
+    .back-img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100vw;
+    }
 
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
+    .canvas {
+      max-width: 350px;
+      background: rgba(0, 0, 0, 0.8);
+      border-radius: 40px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+      animation: fadeIn 1s ease-in-out;
+    }
 
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
+    .banner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
 
-.fa-google {
-  background: #dd4b39;
-  color: white;
-}
+    .bannerimg {
+      height: 150px;
+      width: 100%;
+      border-radius: 30px 30px 0 0;
+      object-fit: cover;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    }
 
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
+    .dp {
+      height: 140px;
+      width: 140px;
+      margin-top: -50px;
+      border-radius: 50%;
+      border: 5px solid #fff;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s ease;
+    }
 
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
+    .dp:hover {
+      transform: scale(1.1);
+    }
 
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
+    .insta-name h2 {
+      font-size: 24px;
+      color: #e8c411;
+      margin: 10px 0;
+    }
+
+    .insta-name h2 span {
+      display: block;
+      font-size: 16px;
+      color: #fff;
+      font-weight: 300;
+      letter-spacing: 1px;
+      margin-top: 5px;
+    }
+
+    .fa {
+      padding: 15px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      margin: 10px 5px;
+      border-radius: 50%;
+      transition: background 0.3s, transform 0.3s;
+    }
+
+    .fa:hover {
+      transform: translateY(-5px);
+      opacity: 0.85;
+    }
+
+    .fa-facebook {
+      background: #3B5998;
+    }
+
+    .fa-twitter {
+      background: #55ACEE;
+    }
+
+    .fa-google {
+      background: #dd4b39;
+    }
+
+    .fa-linkedin {
+      background: #007bb5;
+    }
+
+    .fa-youtube {
+      background: #bb0000;
+    }
+
+    .fa-instagram {
+      background: #e4405f;
+    }
+
+    .insta-bio p {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #ddd;
+      margin-top: 20px;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
   </style>
 </head>
 
 <body>
-    <div class="back-img">
-        <div class="canvas">
-            <div class="banner">
-                <img class="bannerimg" src="img/bck.jpg" alt="dp">
-                <img class="dp" src="img/dp.jpg" alt="dp">
-            </div>
-            <div class="insta-name">
-                <h2>Social pages <span>Malabar Dental & Research Center</span></h2>
-              </div>
-              <br>
-              <a href="https://www.facebook.com/malabarAcademicCity " class="fa fa-facebook"></a>
-              <a href="https://www.linkedin.com/school/malabar-dental-college-&-research-center/" class="fa fa-linkedin"></a>
-              <a href="https://www.instagram.com/malabar_dental_college/" class="fa fa-instagram"></a>
-              <a href="https://youtube.com/@malabardentalcollege" class="fa fa-youtube"></a>
-              <a href="https://g.page/r/CS4qi1PBHXm4EAg/review" class="fa fa-google"></a>
-              <div class="insta-bio">
-                <p>Show your support by following our pages.</p>
-        </div>
+  <div class="back-img">
+    <div class="canvas">
+      <div class="banner">
+        <img class="bannerimg" src="img/bck.jpg" alt="Background Image">
+        <img class="dp" src="img/dp.jpg" alt="Profile Picture">
+      </div>
+      <div class="insta-name">
+        <h2>Social Pages <span>Malabar Dental & Research Center</span></h2>
+      </div>
+      <div class="social-links">
+        <a href="https://www.facebook.com/malabarAcademicCity" class="fa fa-facebook"></a>
+        <a href="https://www.linkedin.com/school/malabar-dental-college-&-research-center/" class="fa fa-linkedin"></a>
+        <a href="https://www.instagram.com/malabar_dental_college/" class="fa fa-instagram"></a>
+        <a href="https://youtube.com/@malabardentalcollege" class="fa fa-youtube"></a>
+        <a href="https://g.page/r/CS4qi1PBHXm4EAg/review" class="fa fa-google"></a>
+      </div>
+      <div class="insta-bio">
+        <p>Show your support by following our pages.</p>
+      </div>
     </div>
+  </div>
 </body>
 
 </html>
